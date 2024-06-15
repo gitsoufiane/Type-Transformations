@@ -8,7 +8,7 @@
  * Which is which?
  */
 
-//union 
+// discriminated union
 type A =
   | {
       type: "a";
@@ -23,7 +23,7 @@ type A =
       c: string;
     };
 
-// discriminated union
+// union
 type B = "a" | "b" | "c";
 
 // enum
